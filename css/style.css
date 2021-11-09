@@ -1,5 +1,40 @@
+/* Generics */
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+/* Utilities */
+#text-darkblue{
+    color: #021732;
+    font-weight: bold;
+}
+
+/* Header */
+header{
+    height: 80px;
+    background-color: #fff;
+}
+
+#logo{
+    width: 60px;
+    height: 60px;
+    margin-left: 20px;
+    margin-top: 10px;
+    padding-top: 2px;
+    vertical-align: middle;
+}
+
+h1{
+    font-weight: 900;
+    font-size: 50px;
+    display: inline;
+    vertical-align: middle;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* main */
+body{
+    background-color: #F6F8F9;
 }

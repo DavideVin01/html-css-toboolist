@@ -38,3 +38,19 @@ h1{
 body{
     background-color: #F6F8F9;
 }
+
+.head-container{
+    background-color: #fff;
+    width: 50%;
+    height: 60px;
+    margin: 30px auto 5px auto;
+    border-radius: 10px 10px 0 0;
+}
+
+.container{
+    background-color: #fff;
+    width: 50%;
+    height: 5   00px;
+    margin: 0 auto 70px auto;
+    border-radius: 0 0 10px 10px;
+}

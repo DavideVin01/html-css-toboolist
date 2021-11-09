@@ -6,14 +6,55 @@
 }
 
 /* Utilities */
-#text-darkblue{
+.text-darkblue{
     color: #021732;
-    font-weight: bold;
+    font-weight: 500;
+    margin: 10px 0;
 }
 
 .roboto-100{
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
+}
+
+.roboto-500{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.tag{
+    font-size: 12px;
+    text-align: center;
+    display: inline-block;
+    height: 20px;
+    width: 60px;
+    color: white;
+    border-radius: 10px;
+    padding: 5px 5px;
+}
+
+.blue-tag{
+    background-color: rgb(103, 178, 253);
+}
+
+.purple-tag{
+    background-color: #9C72E4;
+}
+
+.green-tag{
+    background-color: #64C0A9;
+}
+
+.orange-tag{
+    background-color: #F29E33;
+}
+
+.pink-tag{
+    background-color: #D863A1;
+}
+
+.lime-tag{
+    background-color: #B0C926;
 }
 
 /* Header */
@@ -58,6 +99,7 @@ body{
     height: 500px;
     margin: 0 auto 70px auto;
     border-radius: 0 0 10px 10px;
+    padding: 30px 30px;
 }
 
 .add-task{
@@ -80,4 +122,15 @@ body{
     color: rgb(112, 112, 112);
     padding: 5px 15px;
     border-radius: 5px;
+}
+
+ul{
+    margin-top: 15px;
+    list-style: none;
+    margin-left: 0;
+    padding-left: 2px;
+}
+
+ul .done:before {
+    content: '\1F7E2' ;
 }

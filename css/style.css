@@ -10,6 +10,7 @@
     color: #021732;
     font-weight: 500;
     margin: 10px 0;
+    font-size: 18px;
 }
 
 .roboto-100{
@@ -20,17 +21,6 @@
 .roboto-500{
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
-}
-
-.tag{
-    font-size: 12px;
-    text-align: center;
-    display: inline-block;
-    height: 20px;
-    width: 60px;
-    color: white;
-    border-radius: 10px;
-    padding: 5px 5px;
 }
 
 .blue-tag{
@@ -124,6 +114,9 @@ body{
     border-radius: 5px;
 }
 
+
+/* Container */
+
 ul{
     margin-top: 15px;
     list-style: none;
@@ -133,4 +126,27 @@ ul{
 
 ul .done:before {
     content: '\1F7E2' ;
+}
+
+ul .undone:before {
+    content: '\1F534';
+}
+
+li {
+    margin-bottom: 15px;
+}
+
+.tag{
+    font-size: 12px;
+    text-align: center;
+    display: inline-block;
+    height: 20px;
+    width: 60px;
+    color: white;
+    border-radius: 10px;
+    padding: 3px 5px;
+}
+
+.task{
+    padding: 10px 0;
 }

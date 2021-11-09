@@ -11,6 +11,11 @@
     font-weight: bold;
 }
 
+.roboto-100{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+
 /* Header */
 header{
     height: 80px;
@@ -50,7 +55,29 @@ body{
 .container{
     background-color: #fff;
     width: 50%;
-    height: 5   00px;
+    height: 500px;
     margin: 0 auto 70px auto;
     border-radius: 0 0 10px 10px;
+}
+
+.add-task{
+    margin: 15px 0 0 30px;
+    text-align: center;
+    display: inline-block;
+    height: 30px;
+    width: 100px;
+    background-color: dodgerblue;
+    border: 1px solid dodgerblue;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 15px;
+}
+
+.add-section{
+    display: inline-block;
+    text-align: center;
+    border: 1px solid rgb(112, 112, 112);
+    color: rgb(112, 112, 112);
+    padding: 5px 15px;
+    border-radius: 5px;
 }

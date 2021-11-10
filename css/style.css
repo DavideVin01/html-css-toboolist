@@ -103,6 +103,7 @@ body{
     color: white;
     border-radius: 5px;
     padding: 5px 15px;
+    font-weight: bold;
 }
 
 .add-section{
@@ -112,6 +113,8 @@ body{
     color: rgb(112, 112, 112);
     padding: 5px 15px;
     border-radius: 5px;
+    font-weight: bold;
+    background-color: #fff;
 }
 
 
@@ -120,17 +123,23 @@ body{
 ul{
     margin-top: 15px;
     list-style: none;
-    margin-left: 0;
+    margin-left: 5px;
     padding-left: 2px;
 }
 
-ul .done:before {
-    content: '\1F7E2' ;
+
+/* Fare uno span, inseire uno span su HTML &check; o &cross; e
+    ridimensionarlo come inline-block */
+ul .done::before {
+    color: green;
+    content: '\2713' ;
 }
 
-ul .undone:before {
-    content: '\1F534';
+ul .undone::before {
+    color: red;
+    content: '\2A2F';
 }
+
 
 li {
     margin-bottom: 15px;
@@ -147,6 +156,6 @@ li {
     padding: 3px 5px;
 }
 
-.task{
-    padding: 10px 0;
+.task-text{
+    margin-left: 10px;
 }
